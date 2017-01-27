@@ -7,23 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62256AF61DA4BC1F00724946 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62256AF51DA4BC1F00724946 /* LogInViewController.swift */; };
+		6235E4F21E29ACAA00EDC62E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6235E4F11E29ACAA00EDC62E /* User.swift */; };
+		629239791E2FE34500AD8E16 /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629239781E2FE34500AD8E16 /* HistoryTableViewController.swift */; };
+		6292397B1E2FE6C300AD8E16 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6292397A1E2FE6C300AD8E16 /* HistoryTableViewCell.swift */; };
+		62B38C631E3299A600EEB719 /* UserPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B38C621E3299A600EEB719 /* UserPopUpViewController.swift */; };
+		62B38C651E32DC5300EEB719 /* PopUpBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B38C641E32DC5300EEB719 /* PopUpBrain.swift */; };
+		62B6EE311E2EDDC200204ECA /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B6EE301E2EDDC200204ECA /* Location.swift */; };
+		62C4E2331E3AB11300A7DB97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62C4E2321E3AB11300A7DB97 /* Main.storyboard */; };
+		62CA6C391DB45B1200E8BA6B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CA6C381DB45B1200E8BA6B /* MapViewController.swift */; };
+		62CECBCA1E3041B300C366B5 /* CreateAccountBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CECBC91E3041B300C366B5 /* CreateAccountBrain.swift */; };
+		62CECBCE1E316CAC00C366B5 /* CancleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CECBCD1E316CAC00C366B5 /* CancleButton.swift */; };
+		62CECBD01E316D8E00C366B5 /* SaveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CECBCF1E316D8E00C366B5 /* SaveButton.swift */; };
 		62D972D31D94B8E800AF9543 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D972D21D94B8E800AF9543 /* AppDelegate.swift */; };
-		62D972D51D94B8E800AF9543 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D972D41D94B8E800AF9543 /* ViewController.swift */; };
-		62D972D81D94B8E800AF9543 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62D972D61D94B8E800AF9543 /* Main.storyboard */; };
 		62D972DB1D94B8E800AF9543 /* TheFinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 62D972D91D94B8E800AF9543 /* TheFinder.xcdatamodeld */; };
 		62D972DD1D94B8E800AF9543 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62D972DC1D94B8E800AF9543 /* Assets.xcassets */; };
 		62D972E01D94B8E800AF9543 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62D972DE1D94B8E800AF9543 /* LaunchScreen.storyboard */; };
+		62E8CBB21DA5A20C0000762F /* MainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E8CBB11DA5A20C0000762F /* MainButton.swift */; };
+		62E8CBB41DA5A37D0000762F /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E8CBB31DA5A37D0000762F /* UserViewController.swift */; };
+		62E8CBB61DA5A7DA0000762F /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E8CBB51DA5A7DA0000762F /* CreateAccountViewController.swift */; };
+		62F164881E3987DD0049EEA2 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F164871E3987DD0049EEA2 /* Reachability.swift */; };
+		62F80DB61E2E9E4D006218E4 /* LogInBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F80DB51E2E9E4D006218E4 /* LogInBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		62256AF51DA4BC1F00724946 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		6235E4F11E29ACAA00EDC62E /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		629239781E2FE34500AD8E16 /* HistoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
+		6292397A1E2FE6C300AD8E16 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		62B38C621E3299A600EEB719 /* UserPopUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserPopUpViewController.swift; sourceTree = "<group>"; };
+		62B38C641E32DC5300EEB719 /* PopUpBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpBrain.swift; sourceTree = "<group>"; };
+		62B6EE301E2EDDC200204ECA /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		62C4E2321E3AB11300A7DB97 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../../Desktop/Main.storyboard; sourceTree = "<group>"; };
+		62CA6C381DB45B1200E8BA6B /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		62CECBC91E3041B300C366B5 /* CreateAccountBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountBrain.swift; sourceTree = "<group>"; };
+		62CECBCD1E316CAC00C366B5 /* CancleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancleButton.swift; sourceTree = "<group>"; };
+		62CECBCF1E316D8E00C366B5 /* SaveButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveButton.swift; sourceTree = "<group>"; };
 		62D972CF1D94B8E800AF9543 /* TheFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62D972D21D94B8E800AF9543 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		62D972D41D94B8E800AF9543 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		62D972D71D94B8E800AF9543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		62D972DA1D94B8E800AF9543 /* TheFinder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TheFinder.xcdatamodel; sourceTree = "<group>"; };
 		62D972DC1D94B8E800AF9543 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62D972DF1D94B8E800AF9543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62D972E11D94B8E800AF9543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62E8CBB11DA5A20C0000762F /* MainButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainButton.swift; sourceTree = "<group>"; };
+		62E8CBB31DA5A37D0000762F /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		62E8CBB51DA5A7DA0000762F /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		62F164871E3987DD0049EEA2 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		62F80DB51E2E9E4D006218E4 /* LogInBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +67,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6235E4EF1E29AC4E00EDC62E /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				62D972D21D94B8E800AF9543 /* AppDelegate.swift */,
+				62D972DC1D94B8E800AF9543 /* Assets.xcassets */,
+				62D972DE1D94B8E800AF9543 /* LaunchScreen.storyboard */,
+				62D972E11D94B8E800AF9543 /* Info.plist */,
+				62D972D91D94B8E800AF9543 /* TheFinder.xcdatamodeld */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		6235E4F01E29AC7900EDC62E /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				6235E4F11E29ACAA00EDC62E /* User.swift */,
+				62B6EE301E2EDDC200204ECA /* Location.swift */,
+			);
+			name = DataModel;
+			sourceTree = "<group>";
+		};
+		6283FD5F1E36D14500E4012F /* Custom popUp */ = {
+			isa = PBXGroup;
+			children = (
+				62B38C621E3299A600EEB719 /* UserPopUpViewController.swift */,
+			);
+			name = "Custom popUp";
+			sourceTree = "<group>";
+		};
+		62B6EE2F1E2EDAD300204ECA /* Brain */ = {
+			isa = PBXGroup;
+			children = (
+				62F80DB51E2E9E4D006218E4 /* LogInBrain.swift */,
+				62CECBC91E3041B300C366B5 /* CreateAccountBrain.swift */,
+				62B38C641E32DC5300EEB719 /* PopUpBrain.swift */,
+			);
+			name = Brain;
+			sourceTree = "<group>";
+		};
+		62CECBC71E30412E00C366B5 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6292397A1E2FE6C300AD8E16 /* HistoryTableViewCell.swift */,
+			);
+			name = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		62CECBC81E30416F00C366B5 /* Custom Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				62E8CBB11DA5A20C0000762F /* MainButton.swift */,
+				62CECBCD1E316CAC00C366B5 /* CancleButton.swift */,
+				62CECBCF1E316D8E00C366B5 /* SaveButton.swift */,
+			);
+			name = "Custom Buttons";
+			sourceTree = "<group>";
+		};
 		62D972C61D94B8E700AF9543 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +143,19 @@
 		62D972D11D94B8E800AF9543 /* TheFinder */ = {
 			isa = PBXGroup;
 			children = (
-				62D972D21D94B8E800AF9543 /* AppDelegate.swift */,
-				62D972D41D94B8E800AF9543 /* ViewController.swift */,
-				62D972D61D94B8E800AF9543 /* Main.storyboard */,
-				62D972DC1D94B8E800AF9543 /* Assets.xcassets */,
-				62D972DE1D94B8E800AF9543 /* LaunchScreen.storyboard */,
-				62D972E11D94B8E800AF9543 /* Info.plist */,
-				62D972D91D94B8E800AF9543 /* TheFinder.xcdatamodeld */,
+				62CECBC81E30416F00C366B5 /* Custom Buttons */,
+				62CECBC71E30412E00C366B5 /* Custom Cells */,
+				6235E4F01E29AC7900EDC62E /* DataModel */,
+				62256AF51DA4BC1F00724946 /* LogInViewController.swift */,
+				62C4E2321E3AB11300A7DB97 /* Main.storyboard */,
+				62E8CBB31DA5A37D0000762F /* UserViewController.swift */,
+				62E8CBB51DA5A7DA0000762F /* CreateAccountViewController.swift */,
+				62CA6C381DB45B1200E8BA6B /* MapViewController.swift */,
+				629239781E2FE34500AD8E16 /* HistoryTableViewController.swift */,
+				62F164871E3987DD0049EEA2 /* Reachability.swift */,
+				6283FD5F1E36D14500E4012F /* Custom popUp */,
+				6235E4EF1E29AC4E00EDC62E /* Support */,
+				62B6EE2F1E2EDAD300204ECA /* Brain */,
 			);
 			path = TheFinder;
 			sourceTree = "<group>";
@@ -99,6 +192,7 @@
 				TargetAttributes = {
 					62D972CE1D94B8E800AF9543 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 22VBN794M4;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -127,8 +221,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				62D972E01D94B8E800AF9543 /* LaunchScreen.storyboard in Resources */,
+				62C4E2331E3AB11300A7DB97 /* Main.storyboard in Resources */,
 				62D972DD1D94B8E800AF9543 /* Assets.xcassets in Resources */,
-				62D972D81D94B8E800AF9543 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,23 +233,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62E8CBB61DA5A7DA0000762F /* CreateAccountViewController.swift in Sources */,
+				62B6EE311E2EDDC200204ECA /* Location.swift in Sources */,
+				62F80DB61E2E9E4D006218E4 /* LogInBrain.swift in Sources */,
+				62256AF61DA4BC1F00724946 /* LogInViewController.swift in Sources */,
+				62E8CBB41DA5A37D0000762F /* UserViewController.swift in Sources */,
+				629239791E2FE34500AD8E16 /* HistoryTableViewController.swift in Sources */,
+				6292397B1E2FE6C300AD8E16 /* HistoryTableViewCell.swift in Sources */,
+				62B38C651E32DC5300EEB719 /* PopUpBrain.swift in Sources */,
+				62CECBD01E316D8E00C366B5 /* SaveButton.swift in Sources */,
 				62D972DB1D94B8E800AF9543 /* TheFinder.xcdatamodeld in Sources */,
-				62D972D51D94B8E800AF9543 /* ViewController.swift in Sources */,
+				6235E4F21E29ACAA00EDC62E /* User.swift in Sources */,
 				62D972D31D94B8E800AF9543 /* AppDelegate.swift in Sources */,
+				62F164881E3987DD0049EEA2 /* Reachability.swift in Sources */,
+				62E8CBB21DA5A20C0000762F /* MainButton.swift in Sources */,
+				62CA6C391DB45B1200E8BA6B /* MapViewController.swift in Sources */,
+				62B38C631E3299A600EEB719 /* UserPopUpViewController.swift in Sources */,
+				62CECBCE1E316CAC00C366B5 /* CancleButton.swift in Sources */,
+				62CECBCA1E3041B300C366B5 /* CreateAccountBrain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		62D972D61D94B8E800AF9543 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				62D972D71D94B8E800AF9543 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		62D972DE1D94B8E800AF9543 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -262,9 +363,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 22VBN794M4;
 				INFOPLIST_FILE = TheFinder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.TheFinder;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.sjsu.roberto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -274,9 +376,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 22VBN794M4;
 				INFOPLIST_FILE = TheFinder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.TheFinder;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.sjsu.roberto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -301,6 +404,7 @@
 				62D972E61D94B8E800AF9543 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
